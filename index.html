@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="module" src="glitch.js"></script>
+    <style>
+    body {
+        border: 1px solid #ddd;
+        margin: 5px;
+        overflow: hidden;
+        width: 90vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    /* //// */
+
+	.glitch {
+		font-size: 50px;
+		font-weight: bold;
+	}
+    </style>
+</head>
+
+<body>
+	<glitch class="glitch">GLITCH TEXT</glitch>
+	<glitch class="glitch" scratchDisable>scratchDisable</glitch>
+	<glitch class="glitch" noiseDisable>noiseDisable</glitch>
+	<glitch class="glitch" scratchDisable noiseDisable>both Disable</glitch>
+</body>
+<script>
+</script>
+</html>
